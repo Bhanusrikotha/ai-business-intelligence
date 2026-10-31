@@ -1,0 +1,54 @@
+# ================================
+# .gitignore
+# Mini AI Business Intelligence Assistant
+# ================================
+
+# Environment secrets – NEVER commit
+.env
+
+# Generated database (can be recreated from CSV)
+database/sales.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Pytest cache
+.pytest_cache/
+.cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter (not used but just in case)
+.ipynb_checkpoints/
+
+# Logs
+*.log
