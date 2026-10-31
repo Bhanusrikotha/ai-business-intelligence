@@ -6,11 +6,4 @@ A business intelligence assistant that lets users ask natural-language questions
 
 ---
 
-## Documentation
 
-- [docs/architecture.md](docs/architecture.md)
-- [docs/ai_development_report.md](docs/ai_development_report.md)
-
----
-
-*README will be completed in Phase 8.*
